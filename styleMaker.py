@@ -3,7 +3,10 @@ import xml.etree.ElementTree as ET
 import shutil
 import zipfile
 import os
-# Make the style
+
+# Definition of all the canevas available
+canevas_dictionary={"ex":[ET.Element("style"), "exemple"],"code2":ET.Element("style2")}
+
 
 ET.register_namespace("fo","http://www.w3.org/1999/XSL/Format" )
 ET.register_namespace("svg","http://www.w3.org/2000/svg" )
@@ -36,14 +39,39 @@ def saveAndOpen(output_filename):
 def updateTopics(contentxmlRoot):
     topics=contentxmlRoot.findall(".//"+prefixContent+"topic")
 
+
     for t in topics:
         text=t.find(prefixContent+"title").text
         if(text!=None):
-            indic=text[:2]
-            if(indic=="- "):
-                t.set("style-id","connector")
+            code = extractCode(text)
+            if not(code in canevas_dictionary.keys()):
+                #error : the code isn't recognized doesn't do anything, we skip to the next topic
+                continue
 
 
+            #1) modification of content.xml
+            #2) modification of styles.xml
+            #3) we must now suppress the code from the text of the topic 
+            # + Other modifications of the text depending on the canvas
+            
+
+
+def extractCode(text):
+    # If the text of the topic starts by ",", return the code in this topic
+    if(text[0] == ","):
+        i = 1
+        code = ""
+        while(i < len(text)):
+            if text[i] == " ":
+                if i > 1:
+                    return text[1:i]
+                else: #i == 1, no code !
+                    return None
+            i+=1
+        # If we get here, we never found a "space"
+        return None
+    else: #Not a code
+        return None
 
 def writeXML(xmlRoot,xmlFile):
     xmlString=ET.tostring(xmlRoot,encoding="UTF-8",method="xml")
