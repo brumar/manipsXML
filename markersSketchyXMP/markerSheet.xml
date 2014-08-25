@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<marker-sheet xmlns:ns0="urn:xmind:xmap:xmlns:marker:2.0" xmlns="urn:xmind:xmap:xmlns:marker:2.0"><marker-group id="sketchy" name="sketchyMapping"><marker id="address" name="%address" resource="address_32.png" />
+<marker id="compass" name="%compass" resource="compass_32.png" />
+<marker id="direction" name="%direction" resource="direction_32.png" />
+<marker id="location" name="%location" resource="location_32.png" />
+<marker id="map1" name="%map1" resource="map1_32.png" />
+<marker id="map2" name="%map2" resource="map2_32.png" /><marker id="delivery" name="%delivery" resource="delivery_32.png" />
+<marker id="anchor" name="%anchor" resource="anchor_32.png" />
+<marker id="plane" name="%plane" resource="plane_32.png" />
+<marker id="bicycle" name="%bicycle" resource="bicycle_32.png" /><marker id="apple" name="%apple" resource="apple_32.png" />
+<marker id="android" name="%android" resource="android_32.png" />
+<marker id="git" name="%git" resource="git_32.png" />
+<marker id="windows" name="%windows" resource="windows_32.png" /><marker id="delicious" name="%delicious" resource="delicious_32.png" />
+<marker id="facebook" name="%facebook" resource="facebook_32.png" />
+<marker id="foursquare" name="%foursquare" resource="foursquare_32.png" />
+<marker id="google-plus" name="%google-plus" resource="google-plus_32.png" />
+<marker id="instagram" name="%instagram" resource="instagram_32.png" />
+<marker id="linkedin" name="%linkedin" resource="linkedin_32.png" />
+<marker id="pinterest" name="%pinterest" resource="pinterest_32.png" />
+<marker id="skype" name="%skype" resource="skype_32.png" />
+<marker id="twitter" name="%twitter" resource="twitter_32.png" />
+<marker id="vimeo" name="%vimeo" resource="vimeo_32.png" /><marker id="date" name="%calendar" resource="calendar_32.png" />
+<marker id="back-in-time" name="%back-in-time" resource="back-in-time_32.png" />
+<marker id="clock" name="%clock" resource="clock_32.png" />
+<marker id="timer" name="%hourglass" resource="hourglass_32.png" />
+<marker id="stopwatch" name="%stopwatch" resource="stopwatch_32.png" /><marker id="phone" name="%phone" resource="phone_32.png" />
+<marker id="justice" name="%scales" resource="scales_32.png" />
+<marker id="home" name="%home" resource="home_32.png" />
+<marker id="giftbox" name="%giftbox" resource="giftbox_32.png" />
+<marker id="competition" name="%competition" resource="competition_32.png" />
+<marker id="book" name="%book1" resource="book1_32.png" />
+<marker id="alien" name="%alien" resource="alien_32.png" />
+<marker id="magic-wand" name="%magic-wand" resource="magic-wand_32.png" /><marker id="coffee1" name="%coffee1" resource="coffee1_32.png" />
+<marker id="briefcase" name="%briefcase" resource="briefcase_32.png" />
+<marker id="dumbbell" name="%dumbbell" resource="dumbbell_32.png" />
+<marker id="competition" name="%competition" resource="competition_32.png" />
+<marker id="graduation-cap" name="%graduation-cap" resource="graduation-cap_32.png" />
+<marker id="ruler" name="%ruler" resource="ruler_32.png" />
+<marker id="task" name="%pin" resource="pin_32.png" />
+<marker id="target" name="%hair-cross" resource="hair-cross_32.png" /><marker id="atom" name="%atom" resource="atom_32.png" />
+<marker id="dna" name="%dna" resource="dna_32.png" />
+<marker id="lab-bottle" name="%lab-bottle" resource="lab-bottle_32.png" />
+<marker id="microscope" name="%microscope" resource="microscope_32.png" />
+<marker id="rocket" name="%rocket" resource="rocket_32.png" />
+<marker id="robot" name="%robot" resource="robot_32.png" />
+<marker id="calculator" name="%calculator" resource="calculator_32.png" />
+<marker id="abacus" name="%abacus" resource="abacus_32.png" />
+<marker id="book" name="%book1" resource="book1_32.png" /><marker id="award1" name="%award1" resource="award1_32.png" />
+<marker id="award2" name="%award2" resource="award2_32.png" />
+<marker id="crown" name="%crown" resource="crown_32.png" />
+<marker id="new-badge" name="%new-badge" resource="new-badge_32.png" />
+<marker id="sheriff-star" name="%sheriff-star" resource="sheriff-star_32.png" />
+<marker id="star-empty" name="%star-empty" resource="star-empty_32.png" />
+<marker id="giftbox" name="%giftbox" resource="giftbox_32.png" /><marker id="beer" name="%beer" resource="beer_32.png" />
+<marker id="bicycle" name="%bicycle" resource="bicycle_32.png" />
+<marker id="football1" name="%football1" resource="football1_32.png" />
+<marker id="football2" name="%football2" resource="football2_32.png" />
+<marker id="icecream" name="%icecream" resource="icecream_32.png" />
+<marker id="joystick" name="%joystick" resource="joystick_32.png" />
+<marker id="luggage" name="%luggage" resource="luggage_32.png" />
+<marker id="paper-plane" name="%paper-plane" resource="paper-plane_32.png" />
+<marker id="trumpet" name="%trumpet" resource="trumpet_32.png" />
+<marker id="tv" name="%TV" resource="TV_32.png" />
+<marker id="ticket" name="%ticket" resource="ticket_32.png" />
+<marker id="coffee2" name="%coffee2" resource="coffee2_32.png" /><marker id="bell" name="%bell" resource="bell_32.png" />
+<marker id="boombox" name="%boombox" resource="boombox_32.png" />
+<marker id="headphones" name="%headphones" resource="headphones_32.png" />
+<marker id="note1" name="%note1" resource="note1_32.png" />
+<marker id="note2" name="%note2" resource="note2_32.png" />
+<marker id="sound1" name="%sound1" resource="sound1_32.png" />
+<marker id="sound5" name="%sound5" resource="sound5_32.png" />
+<marker id="trumpet" name="%trumpet" resource="trumpet_32.png" /><marker id="create-new" name="%create-new" resource="create-new_32.png" />
+<marker id="file2" name="%file2" resource="file2_32.png" />
+<marker id="postit" name="%file4" resource="file4_32.png" />
+<marker id="checklist1" name="%checklist1" resource="checklist1_32.png" />
+<marker id="checklist2" name="%checklist2" resource="checklist2_32.png" />
+<marker id="layout9" name="%layout9" resource="layout9_32.png" /><marker id="chart1" name="%chart1" resource="chart1_32.png" />
+<marker id="chart3" name="%chart3" resource="chart3_32.png" />
+<marker id="cam10" name="%chart4" resource="chart4_32.png" />
+<marker id="chart5" name="%chart5" resource="chart5_32.png" />
+<marker id="ArUp" name="%chart6" resource="chart6_32.png" />
+<marker id="ArDown" name="%chart7" resource="chart7_32.png" />
+<marker id="chart2" name="%chart2" resource="chart2_32.png" />
+<marker id="chart8" name="%chart8" resource="chart8_32.png" /><marker id="camera" name="%camera" resource="camera_32.png" />
+<marker id="eye" name="%eye" resource="eye_32.png" />
+<marker id="webcam" name="%webcam" resource="webcam_32.png" /><marker id="drops" name="%drops" resource="drops_32.png" />
+<marker id="moon" name="%moon" resource="moon_32.png" />
+<marker id="water" name="%water" resource="water_32.png" />
+<marker id="weather-cloud" name="%weather-cloud" resource="weather-cloud_32.png" />
+<marker id="weather-rain" name="%weather-rain" resource="weather-rain_32.png" />
+<marker id="weather-snow" name="%weather-snow" resource="weather-snow_32.png" />
+<marker id="weather-sun" name="%weather-sun" resource="weather-sun_32.png" /><marker id="flower" name="%flower" resource="flower_32.png" />
+<marker id="leaf" name="%leaf" resource="leaf_32.png" />
+<marker id="tree2" name="%tree2" resource="tree2_32.png" />
+<marker id="tree3" name="%tree3" resource="tree3_32.png" />
+<marker id="tree1" name="%tree1" resource="tree1_32.png" /><marker id="credit-card" name="%credit-card" resource="credit-card_32.png" />
+<marker id="diamond" name="%diamond" resource="diamond_32.png" />
+<marker id="money4" name="%money4" resource="money4_32.png" />
+<marker id="money3" name="%money3" resource="money3_32.png" />
+<marker id="money2" name="%money2" resource="money2_32.png" />
+<marker id="money1" name="%money1" resource="money1_32.png" />
+<marker id="free-badge" name="%free-badge" resource="free-badge_32.png" /><marker id="china" name="%china" resource="china.jpg" />
+		<marker id="de" name="%de" resource="de.jpg" />
+		<marker id="europe" name="%europe" resource="europe.jpg" />
+		<marker id="fr" name="%fr" resource="fr.jpg" />
+		<marker id="it" name="%it" resource="it.jpg" />
+		<marker id="japon" name="%japon" resource="japon.jpg" />
+		<marker id="usa" name="%usa" resource="usa.jpg" />
+<marker id="dollar-sign" name="%dollar-sign" resource="dollar-sign_32.png" />
+<marker id="dollar" name="%euro-sign" resource="euro-sign_32.png" />
+<marker id="pound-sign" name="%pound-sign" resource="pound-sign_32.png" />
+<marker id="yen-sign" name="%yen-sign" resource="yen-sign_32.png" /><marker id="smile-neutral" name="%smile-neutral" resource="smile-neutral_32.png" />
+<marker id="smile_angry" name="%smile_angry" resource="smile_angry_32.png" />
+<marker id="smile_confused" name="%smile_confused" resource="smile_confused_32.png" />
+<marker id="smile_laugh" name="%smile_laugh" resource="smile_laugh_32.png" />
+<marker id="smile_mock" name="%smile_mock" resource="smile_mock_32.png" />
+<marker id="smile_skeptik" name="%smile_skeptik" resource="smile_skeptik_32.png" />
+<marker id="smiley-smile" name="%smile-sad" resource="smile-sad_32.png" />
+<marker id="smiley-angry" name="%smile-happy" resource="smile-happy_32.png" />
+<marker id="glasses-mustache" name="%glasses-mustache" resource="glasses-mustache_32.png" /><marker id="Pres" name="%Pres" resource="Pres.jpg" />
+<marker id="face1" name="%face1" resource="face1_32.png" />
+<marker id="p1" name="%face2" resource="face2_32.png" />
+<marker id="face3" name="%face3" resource="face3_32.png" />
+<marker id="profile" name="%profile" resource="profile_32.png" />
+<marker id="user1" name="%user1" resource="user1_32.png" />
+<marker id="BizMan" name="%user2" resource="user2_32.png" />
+<marker id="user3" name="%user3" resource="user3_32.png" />
+<marker id="user8" name="%user8" resource="user8_32.png" />
+<marker id="userpic" name="%userpic" resource="userpic_32.png" />
+<marker id="contact-book2" name="%contact-book2" resource="contact-book2_32.png" />
+<marker id="user4" name="%user4" resource="user4_32.png" />
+<marker id="user5" name="%user5" resource="user5_32.png" /><marker id="flow-branch" name="%flow-branch" resource="flow-branch_32.png" />
+<marker id="flow-cascade" name="%flow-cascade" resource="flow-cascade_32.png" />
+<marker id="flow-line" name="%flow-line" resource="flow-line_32.png" />
+<marker id="flow-parallel" name="%flow-parallel" resource="flow-parallel_32.png" />
+<marker id="flow-tree" name="%flow-tree" resource="flow-tree_32.png" />
+<marker id="gears1" name="%gears1" resource="gears1_32.png" />
+<marker id="gears1" name="%gears1" resource="gears1_32.png" /><marker id="files" name="%files" resource="files_32.png" />
+<marker id="film" name="%film" resource="film_32.png" />
+<marker id="folder1" name="%folder1" resource="folder1_32.png" />
+<marker id="folder5" name="%folder5" resource="folder5_32.png" />
+<marker id="image1" name="%image1" resource="image1_32.png" />
+<marker id="image2" name="%image2" resource="image2_32.png" />
+<marker id="save" name="%save" resource="save_32.png" />
+<marker id="file3" name="%file3" resource="file3_32.png" />
+<marker id="archive" name="%archive" resource="archive_32.png" /><marker id="gauge1" name="%gauge1" resource="gauge1_32.png" />
+<marker id="gauge2" name="%gauge2" resource="gauge2_32.png" />
+<marker id="horseshoe" name="%horseshoe" resource="horseshoe_32.png" />
+<marker id="thermometer2" name="%thermometer2" resource="thermometer2_32.png" />
+<marker id="attentiones" name="%warning1" resource="warning1_32.png" />
+<marker id="warning2" name="%warning2" resource="warning2_32.png" />
+<marker id="yinyang" name="%yinyang" resource="yinyang_32.png" />
+<marker id="weather-sun" name="%weather-sun" resource="weather-sun_32.png" />
+<marker id="weather-rain" name="%weather-rain" resource="weather-rain_32.png" />
+<marker id="weather-cloud" name="%weather-cloud" resource="weather-cloud_32.png" /><marker id="N1" name="%N1" resource="N1.png" />
+		<marker id="N2" name="%N2" resource="N2.png" />
+		<marker id="N3" name="%N3" resource="N3.png" />
+		<marker id="N4" name="%N4" resource="N4.png" />
+		<marker id="N5" name="%N5" resource="N5.png" />
+		<marker id="N6" name="%N6" resource="N6.png" />
+		<marker id="N7" name="%N7" resource="N7.png" />
+		<marker id="N8" name="%N8" resource="N8.png" />
+		<marker id="N9" name="%N9" resource="N9.png" />
+	<marker id="infinity" name="%infinity" resource="infinity_32.png" />
+<marker id="stop" name="%stop" resource="stop_32.png" />
+<marker id="to-end" name="%to-end" resource="to-end_32.png" />
+<marker id="to-start" name="%to-start" resource="to-start_32.png" />
+<marker id="pause" name="%pause" resource="pause_32.png" />
+<marker id="cw" name="%cw" resource="cw_32.png" />
+<marker id="arrow3-right" name="%arrow3-right" resource="arrow3-right_32.png" />
+<marker id="shuffle" name="%shuffle" resource="shuffle_32.png" />
+<marker id="resize-full1" name="%resize-full1" resource="resize-full1_32.png" />
+<marker id="resize-small1" name="%resize-small1" resource="resize-small1_32.png" /><marker id="circled-minus" name="%circled-minus" resource="circled-minus_32.png" />
+<marker id="circled-plus" name="%circled-plus" resource="circled-plus_32.png" />
+<marker id="circled-cross" name="%circled-cross" resource="circled-cross_32.png" />
+<marker id="TD" name="%thumbs-down" resource="thumbs-down_32.png" />
+<marker id="TU" name="%thumbs-up" resource="thumbs-up_32.png" />
+<marker id="trash" name="%trash" resource="trash_32.png" />
+<marker id="yes" name="%check" resource="check_32.png" />
+<marker id="no" name="%cross" resource="cross_32.png" />
+<marker id="weather-wind" name="%weather-wind" resource="weather-wind_32.png" />
+<marker id="heart" name="%heart" resource="heart_32.png" /><marker id="exemple" name="%exemple" resource="example.png" />
+<marker id="other_chat" name="%bubble1" resource="bubble1_32.png" />
+<marker id="bubble2" name="%bubble2" resource="bubble2_32.png" />
+<marker id="quote" name="%quote" resource="quote_32.png" />
+<marker id="claim" name="%promote" resource="promote_32.png" />
+<marker id="other-exclam" name="%head-exclamation" resource="head-exclamation_32.png" />
+<marker id="idea" name="%head-idea" resource="head-idea_32.png" />
+<marker id="other-question" name="%head-question" resource="head-question_32.png" />
+<marker id="information_i" name="%info" resource="info_32.png" />
+<marker id="light-bulb" name="%light-bulb" resource="light-bulb_32.png" />
+<marker id="target" name="%hair-cross" resource="hair-cross_32.png" />
+<marker id="microphone" name="%microphone" resource="microphone_32.png" />
+<marker id="help" name="%help" resource="help_32.png" />
+<marker id="ZoomIn" name="%zoom-in" resource="zoom-in_32.png" />
+<marker id="gears1" name="%gears1" resource="gears1_32.png" />
+<marker id="gears2" name="%gears2" resource="gears2_32.png" />
+<marker id="strategy" name="%strategy" resource="strategy_32.png" />
+<marker id="search" name="%search" resource="search_32.png" /><marker id="flashlight" name="%flashlight" resource="flashlight_32.png" />
+<marker id="light-bulb" name="%light-bulb" resource="light-bulb_32.png" />
+<marker id="head-idea" name="%head-idea" resource="head-idea_32.png" />
+<marker id="key" name="%key" resource="key_32.png" />
+<marker id="other_unlock" name="%lock-open" resource="lock-open_32.png" />
+<marker id="umbrella" name="%umbrella" resource="umbrella_32.png" />
+<marker id="lifebuoy" name="%lifebuoy" resource="lifebuoy_32.png" />
+<marker id="shield" name="%shield" resource="shield_32.png" /><marker id="bomb" name="%bomb" resource="bomb_32.png" />
+<marker id="erase" name="%erase" resource="erase_32.png" />
+<marker id="fire" name="%fire" resource="fire_32.png" />
+<marker id="flash1" name="%flash1" resource="flash1_32.png" />
+<marker id="clash" name="%flash2" resource="flash2_32.png" />
+<marker id="cross" name="%cross" resource="cross_32.png" />
+<marker id="scull" name="%scull" resource="scull_32.png" />
+<marker id="block" name="%block" resource="block_32.png" />
+<marker id="radiation" name="%radiation" resource="radiation_32.png" />
+<marker id="traffic-cone" name="%traffic-cone" resource="traffic-cone_32.png" />
+<marker id="other_lock" name="%lock" resource="lock_32.png" />
+<marker id="attentiones" name="%warning1" resource="warning1_32.png" />
+<marker id="warning2" name="%warning2" resource="warning2_32.png" /><marker id="sale-badge" name="%sale-badge" resource="sale-badge_32.png" />
+<marker id="sale-tag" name="%sale-tag" resource="sale-tag_32.png" />
+<marker id="shopping-cart" name="%shopping-cart" resource="shopping-cart_32.png" />
+<marker id="factory" name="%factory" resource="factory_32.png" />
+<marker id="open-sign" name="%open-sign" resource="open-sign_32.png" />
+<marker id="barcode" name="%barcode" resource="barcode_32.png" />
+<marker id="free-badge" name="%free-badge" resource="free-badge_32.png" /><marker id="tools2" name="%tools2" resource="tools2_32.png" />
+<marker id="wrench" name="%wrench" resource="wrench_32.png" />
+<marker id="pencil" name="%pencil" resource="pencil_32.png" />
+<marker id="palette" name="%palette" resource="palette_32.png" /><marker id="soda" name="%soda" resource="soda_32.png" />
+<marker id="spoon-fork" name="%spoon-fork" resource="spoon-fork_32.png" />
+<marker id="wineglass" name="%wineglass" resource="wineglass_32.png" />
+<marker id="apple_logo" name="%apple_logo" resource="apple_logo_32.png" /><marker id="syringe" name="%syringe" resource="syringe_32.png" />
+<marker id="pulse" name="%pulse" resource="pulse_32.png" />
+<marker id="thermometer1" name="%thermometer1" resource="thermometer1_32.png" />
+<marker id="apple_logo" name="%apple_logo" resource="apple_logo_32.png" /><marker id="slider2" name="%slider2" resource="slider2_32.png" />
+<marker id="slider1" name="%slider1" resource="slider1_32.png" />
+<marker id="on-off" name="%on-off" resource="on-off_32.png" />
+<marker id="download" name="%download" resource="download_32.png" />
+<marker id="mail" name="%mail" resource="mail_32.png" />
+<marker id="share2" name="%share2" resource="share2_32.png" /><marker id="wi-fi" name="%wi-fi" resource="wi-fi_32.png" />
+<marker id="router" name="%router" resource="router_32.png" />
+<marker id="share2" name="%share2" resource="share2_32.png" />
+<marker id="rss" name="%rss" resource="rss_32.png" />
+<marker id="podcast" name="%podcast" resource="podcast_32.png" />
+<marker id="signal" name="%signal" resource="signal_32.png" /><marker id="computer" name="%mouse" resource="mouse_32.png" />
+<marker id="keyboard" name="%keyboard" resource="keyboard_32.png" />
+<marker id="browser1" name="%browser1" resource="browser1_32.png" />
+<marker id="terminal" name="%terminal" resource="terminal_32.png" />
+<marker id="mobile" name="%mobile" resource="mobile_32.png" />
+<marker id="print" name="%print" resource="print_32.png" />
+<marker id="drive2" name="%drive2" resource="drive2_32.png" />
+<marker id="database" name="%database" resource="database_32.png" /><marker id="globe" name="%globe" resource="globe_32.png" />
+<marker id="link" name="%link" resource="link_32.png" />
+<marker id="attach" name="%attach" resource="attach_32.png" />
+<marker id="at-sign" name="%at-sign" resource="at-sign_32.png" />
+<marker id="mail" name="%mail" resource="mail_32.png" /></marker-group></marker-sheet>
