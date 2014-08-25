@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import shutil
 import zipfile
 import os
+import myCanevasReader
 
 # Definition of all the canevas available
 canevas_dictionary={"ex":[ET.Element("style"), "exemple"],"code2":ET.Element("style2")}
@@ -18,15 +19,18 @@ prefixContent="{urn:xmind:xmap:xmlns:content:2.0}"
 pathXmind="./styleMaker"
 
 def proceed(source_filename,output_filename):
-
+    canevas=myCanevasReader.CanevasDic()
     unzip(source_filename,pathXmind)
-    stylexmlRoot=ET.parse(pathXmind+"/"+"styles.xml").getroot()
-    addStyles(stylexmlRoot)
-    writeXML(stylexmlRoot,"styles.xml")
 
     contentxmlRoot=ET.parse(pathXmind+"/"+"content.xml").getroot()
-    updateTopics(contentxmlRoot)
+    styleIdList=updateTopics(contentxmlRoot,canevas)
     writeXML(contentxmlRoot,"content.xml")
+
+    stylexmlRoot=ET.parse(pathXmind+"/"+"styles.xml").getroot()
+    addStyles(stylexmlRoot,styleIdList,canevas)
+    writeXML(stylexmlRoot,"styles.xml")
+
+
 
     saveAndOpen(output_filename)
 
@@ -36,24 +40,26 @@ def saveAndOpen(output_filename):
     zipf.close()
     os.startfile(output_filename)
 
-def updateTopics(contentxmlRoot):
+def updateTopics(contentxmlRoot,canevas):
+    listOfStyleIds=[]
     topics=contentxmlRoot.findall(".//"+prefixContent+"topic")
-
 
     for t in topics:
         text=t.find(prefixContent+"title").text
         if(text!=None):
             code = extractCode(text)
-            if not(code in canevas_dictionary.keys()):
-                #error : the code isn't recognized doesn't do anything, we skip to the next topic
-                continue
+            if (code in canevas.matchingTextDic.keys()):
+                styleID=canevas.matchingTextDic[code][1]
+                listOfStyleIds.append(styleID)
+                t.set("style-id",styleID)
+    return listOfStyleIds
 
 
             #1) modification of content.xml
             #2) modification of styles.xml
-            #3) we must now suppress the code from the text of the topic 
+            #3) we must now suppress the code from the text of the topic
             # + Other modifications of the text depending on the canvas
-            
+
 
 
 def extractCode(text):
@@ -105,19 +111,16 @@ def zipdir(path, zipfile):
     finally:
         os.chdir("..")
 
-def addStyles(xmlRoot):
-    styles=xmlRoot.findall(prefixStyle+"styles")
-    if(styles==[]):
-        styles=ET.SubElement(xmlRoot,"styles")
-    else:
-        styles=styles[0]
-    s=ET.SubElement(styles,"style")
-    s.set("id","connector")
-    s.set("type","topic")
-    prop=ET.SubElement(s,"topic-properties")
-    prop.set("fo:color","#808080")
-    prop.set("shape-class","org.xmind.topicShape.noBorder")
-    return styles
+def addStyles(xmlRoot,styleIdList,canevas):
+    for styleId in styleIdList:
+        element=canevas.idstyle[styleId]
+        styles=xmlRoot.findall(prefixStyle+"styles")
+        if(styles==[]):
+            styles=ET.SubElement(xmlRoot,"styles")
+        else:
+            styles=styles[0]
+        styles.extend(element)
+        return styles
 
 if __name__=="__main__":
     source_filename=raw_input("input : ")
