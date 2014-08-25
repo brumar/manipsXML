@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import shutil
 import zipfile
 import os
+# Make the style
 
 ET.register_namespace("fo","http://www.w3.org/1999/XSL/Format" )
 ET.register_namespace("svg","http://www.w3.org/2000/svg" )
