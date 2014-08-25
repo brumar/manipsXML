@@ -1,29 +1,43 @@
-<CanvList>
-
+<CanvList xmlns:fo="http://www.w3.org/1999/XSL/Format">
 	<canevas>
 		<text code ="c" />
-		<style id="connector" type="topic"><topic-properties fo:color="#808080" shape-class="org.xmind.topicShape.noBorder"/></style>
+		<marker markerId ="mark_c" />
+		<styleXmind>
+		  <style id="connector" type="topic"><topic-properties fo:color="#808080" shape-class="org.xmind.topicShape.noBorder"/></style>
+		</styleXmind>
 	</canevas>
-	
+
 	<canevas>
 	    <text code ="b" />
-	    <style id="bold" type="topic"><topic-properties fo:font-weight="bold"/></style>
+	    <marker markerId ="mark_b" />
+	    <styleXmind>
+	       <style id="bold" type="topic"><topic-properties fo:font-weight="bold"/></style>
+	    </styleXmind>
 	</canevas>
 
 	<canevas>
 		<text code ="rb" />
+		<marker markerId ="mark_rb" />
 		<marker markerId ="NONE" />
-	    <style id="rect_bold" type="topic"><topic-properties fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/></style>
+		<styleXmind>
+	        <style id="rect_bold" type="topic"><topic-properties fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/></style>
+	   </styleXmind>
 	</canevas>
 
 	<canevas>
 	    <text code ="r" />
-	    <style id="red_text" type="topic"><topic-properties fo:color="#800000"/></style>
+	    <marker markerId ="mark_r" />
+	    <styleXmind>
+	       <style id="red_text" type="topic"><topic-properties fo:color="#800000"/></style>
+	    </styleXmind>
 	</canevas>
-	
+
 	<canevas>
 	    <text code ="g" />
+	    <marker markerId ="mark_g" />
+	     <styleXmind>
 	    <style id="green_text" type="topic"><topic-properties fo:color="#008000"/></style>
+	     </styleXmind>
 	</canevas>
 
 </CanvList>
