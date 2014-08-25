@@ -1,14 +1,29 @@
 <CanvList>
-<canevas id="1">
-	<text code ="ex" />
-	<marker markerId ="codeEx" />
-    <style>
-    </style>
-</canevas>
-<canevas id="2">
-    <text code ="b" />
-    <marker markerId ="codeB" />
-    <style>
-    </style>
-</canevas>
+
+	<canevas>
+		<text code ="c" />
+		<style id="connector" type="topic"><topic-properties fo:color="#808080" shape-class="org.xmind.topicShape.noBorder"/></style>
+	</canevas>
+	
+	<canevas>
+	    <text code ="b" />
+	    <style id="bold" type="topic"><topic-properties fo:font-weight="bold"/></style>
+	</canevas>
+
+	<canevas>
+		<text code ="rb" />
+		<marker markerId ="NONE" />
+	    <style id="rect_bold" type="topic"><topic-properties fo:font-weight="bold" shape-class="org.xmind.topicShape.roundedRect"/></style>
+	</canevas>
+
+	<canevas>
+	    <text code ="r" />
+	    <style id="red_text" type="topic"><topic-properties fo:color="#800000"/></style>
+	</canevas>
+	
+	<canevas>
+	    <text code ="g" />
+	    <style id="green_text" type="topic"><topic-properties fo:color="#008000"/></style>
+	</canevas>
+
 </CanvList>
