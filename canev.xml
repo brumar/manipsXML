@@ -1,0 +1,14 @@
+<CanvList>
+<canevas id="1">
+	<text code ="ex" />
+	<marker markerId ="codeEx" />
+    <style>
+    </style>
+</canevas>
+<canevas id="2">
+    <text code ="b" />
+    <marker markerId ="codeB" />
+    <style>
+    </style>
+</canevas>
+</CanvList>
