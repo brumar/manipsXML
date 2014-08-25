@@ -24,15 +24,15 @@ class CanevasDic():
         for canev in root:
             code=canev.find("text").get("code")
             marker=canev.find("marker").get("markerId")
-            element=canev.find("style")
-            idStyle=canev.find("style").get("id")
+            element=canev.find("styleXmind")
+            idStyle=canev.find("styleXmind").find("style").get("id")
             self.addcode(code, element,idStyle)
             self.addmarker(marker, element,idStyle)
             self.addId(code, element, idStyle)
-
-c=CanevasDic()
-c.read(xmlFile)
-print(c.markerDic)
-print(c.matchingTextDic)
-print(c.idstyle)
+if __name__=="__main__":
+    c=CanevasDic()
+    c.read(xmlFile)
+    print(c.markerDic)
+    print(c.matchingTextDic)
+    print(c.idstyle)
 
