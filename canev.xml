@@ -3,7 +3,7 @@
 		<text code ="c" />
 		<marker markerId ="mark_c" />
 		<styleXmind>
-		  <style id="connector" type="topic"><topic-properties fo:color="#808080" shape-class="org.xmind.topicShape.noBorder"/></style>
+		  <style id="connector" type="topic"><topic-properties fo:color="#808080" fo:font-family="tahoma" fo:font-size="10" shape-class="org.xmind.topicShape.noBorder"/></style>
 		</styleXmind>
 	</canevas>
 
