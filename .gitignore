@@ -37,7 +37,10 @@ Icon
 .Spotlight-V100
 .Trashes
 
+# =========================
 # Custom Files
+# =========================
+
 styleMaker/
 *.xmind
 *.pyc
