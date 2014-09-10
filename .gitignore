@@ -41,3 +41,13 @@ Icon
 styleMaker/
 *.xmind
 *.pyc
+
+
+# =========================
+# Liclipse
+# =========================
+
+.project
+.pydevproject
+.settings\*
+*.prefs
