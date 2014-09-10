@@ -36,8 +36,9 @@ def saveAndOpen(output_filename):
     zipf=zipfile.ZipFile(output_filename, 'w')
     zipdir(pathXmind+"/", zipf)
     zipf.close()
-    os.startfile(output_filename)
-
+    #if sys.platform == "win32":
+    #    os.startfile(output_filename)
+    os.open(output_filename, 1)
 def updateTopics(contentxmlRoot,canevas):
     listOfStyleIds=[]
     topics=contentxmlRoot.findall(".//"+prefixContent+"topic")
